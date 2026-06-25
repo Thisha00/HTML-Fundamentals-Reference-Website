@@ -3,9 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Fundamentals Reference Website</title>
 </head>
 <body>
+    <header>
+        <center><h1>HTML Fundamentals Reference Website</h1>
+        <p>A semantic HTML reference guide for Internet Fundamentals concepts.</p>
+        </center>
+    </header></br>
+
+    <nav>
+        <ul>
+            <li><a href="#internet">What is the Internet?</a></li>
+            <li><a href="#working">How the Internet Works?</a></li>
+            <li><a href="#services">What are the main services in the Internet?</a></li>
+            <li><a href="#daily">How the Internet is used in daily life?</a></li>
+            <li><a href="#browsers">Role of Web Browsers</a></li>
+            <li><a href="#dns">What is DNS and Why it is important?</a></li>
+            <li><a href="#HTMLtags">Detailed explanation of HTML tags</a></li>
+        </ul>
+    </nav></br>
+
+    <main>
+        <section id="internet">
+            <h2>What is the Internet?</h2>
+            <article>
+            <p>The Internet is a worldwide network of interconnected computer networks that allows devices to communicate and exchange information using TCP/IP.</p>
+            <h4>Key Characteristics</h4>
+            <ul>
+                <li>Global network</li>
+                <li>Uses TCP/IP protocols</li>
+                <li>Supports communication worldwide</li>
+                <li>Provides access to websites and online services</li>
+                <li>Connects billions of devices</li>
+            </ul>
+            </article>
+        </section></br>
+
+
+        <section id="working">
+            <h2>How the Internet Works</h2>
+
+            <article>
+            <h4>Client</h4>
+            <p>A client is a user's device or application that requests information from a server.</p>
+
+            <h4>Server</h4>
+            <p>A server stores websites, applications, and data and responds to client requests.</p>
+
+            <h4>Client–Server Model</h4>
+            <ol>
+                <li>User enters a website address.</li>
+                <li>Browser contacts DNS.</li>
+                <li>DNS returns the server IP address.</li>
+                <li>Browser sends an HTTP/HTTPS request.</li>
+                <li>Server processes the request.</li>
+                <li>Server sends HTML files.</li>
+                <li>Browser displays the webpage.</li>
+            </ol>
+
+            <h4>HTTP</h4>
+            <p>HTTP (HyperText Transfer Protocol) transfers web pages between browsers and servers.</p>
+
+            <h4>HTTPS</h4>
+            <p>HTTPS is the secure version of HTTP that encrypts data using SSL/TLS.</p>
+            </article>
+        </section></br>
+
+
+        <section id="services">
+            <h2>Main Internet Services</h2>
+
+            <table border="1">
+            <tr><th>Service</th><th>Description</th></tr>
+            <tbody>
+                <tr><td>World Wide Web</td><td>Browse websites.</td></tr>
+                <tr><td>Email</td><td>Electronic communication.</td></tr>
+                <tr><td>FTP</td><td>File transfer.</td></tr>
+                <tr><td>VoIP</td><td>Voice and video calls.</td></tr>
+                <tr><td>Cloud Computing</td><td>Online storage and applications.</td></tr>
+                <tr><td>Streaming</td><td>Watch and listen online.</td></tr>
+                <tr><td>Social Media</td><td>Connect with people.</td></tr>
+                <tr><td>E-commerce</td><td>Online shopping.</td></tr>
+                <tr><td>Online Banking</td><td>Financial transactions.</td></tr>
+                <tr><td>Online Learning</td><td>Education over the Internet.</td></tr>
+            </tbody>
+            </table>
+        </section></br>
+
+
+        <section id="daily">
+            <h2>How the Internet is Used in Daily Life</h2>
+            <p>Internet is widely used in these fields.</p>
+            <ul>
+                <li>Education</li>
+                <li>Communication</li>
+                <li>Entertainment</li>
+                <li>Banking</li>
+                <li>Shopping</li>
+                <li>Healthcare</li>
+                <li>Navigation</li>
+                <li>Remote Work</li>
+                <li>Gaming</li>
+                <li>Government Services</li>
+            </ul>
+        </section></br>
+
+
+        <section id="browsers">
+            <h2>Role of Web Browsers</h2>
+            <p>A web browser retrieves, interprets and displays HTML pages.</p>
+            <h4>Popular Browsers</h4>
+            <ul>
+                <li>Google Chrome</li>
+                <li>Mozilla Firefox</li>
+                <li>Microsoft Edge</li>
+                <li>Safari</li>
+                <li>Opera</li>
+            </ul>
+            <h4>Functions</h4>
+            <ul>
+                <li>Render HTML</li>
+                <li>Execute JavaScript</li>
+                <li>Display multimedia</li>
+                <li>Manage cookies and cache</li>
+                <li>Provide secure browsing</li>
+            </ul>
+        </section></br>
+
+        <section id="dns">
+            <h2>Domain Name System (DNS)</h2>
+            <p>DNS translates human-readable domain names into IP addresses so browsers can locate web servers.</p>
+            <p> When you type a website address, your computer sends a request to a DNS server to find the corresponding IP address. The DNS server looks up the address and returns the correct IP address to your computer. Your browser then uses that IP address to connect to the website's server and load the webpage.</p>
+            <h4>Why DNS is Important?</h4>
+            <ul>
+                <li>Easy to use</li>
+                <li>Enables internet communication</li>
+                <li>Improve performance</li>
+                <li>Supports scalability</li>
+                <li>Provides redundancy and reliability</li>
+                <li>Helps with security</li>
+            </ul>
+        </section></br>
+
+
+        <section id="HTMLtags">
+            <h2> Detailed explanation of HTML Tags</h2>
+            <p>This explains the purpose and usage of various HTML tags.</p>
+
+            <article><h3>1. &lt;html&gt;</h3><p><b>Purpose:</b> Root</p><p><b>When to use:</b> Whole document</p><pre>&lt;html&gt;...&lt;/html&gt;</pre></article>
+            <article><h3>2. &lt;head&gt;</h3><p><b>Purpose:</b> Metadata</p><p><b>When to use:</b> Metadata</p><pre>&lt;head&gt;</pre></article>
+            <article><h3>3. &lt;title&gt;</h3><p><b>Purpose:</b> Title</p><p><b>When to use:</b> Tab title</p><pre>&lt;title&gt;</pre></article>
+            <article><h3>4. &lt;body&gt;</h3><p><b>Purpose:</b> Body</p><p><b>When to use:</b> Visible content</p><pre>&lt;body&gt;</pre></article>
+            <article><h3>5. &lt;h1&gt;</h3><p><b>Purpose:</b> Heading</p><p><b>When to use:</b> Main heading</p><pre>&lt;h1&gt;</pre></article>
+            <article><h3>6. &lt;h2&gt;</h3><p><b>Purpose:</b> Heading</p><p><b>When to use:</b> Subheading</p><pre>&lt;h2&gt;</pre></article>
+            <article><h3>7. &lt;p&gt;</h3><p><b>Purpose:</b> Paragraph</p><p><b>When to use:</b> Text</p><pre>&lt;p&gt;Hello&lt;/p&gt;</pre></article>
+            <article><h3>8. &lt;a&gt;</h3><p><b>Purpose:</b> Link</p><p><b>When to use:</b> Hyperlink</p><pre>&lt;a href='#'&gt;</pre></article>
+            <article><h3>9. &lt;img&gt;</h3><p><b>Purpose:</b> Image</p><p><b>When to use:</b> Display image</p><pre>&lt;img src='x'&gt;</pre></article>
+            <article><h3>10. &lt;br&gt;</h3><p><b>Purpose:</b> Break</p><p><b>When to use:</b> New line</p><pre>&lt;br&gt;</pre></article>
+            <article><h3>11. &lt;hr&gt;</h3><p><b>Purpose:</b> Rule</p><p><b>When to use:</b> Section break</p><pre>&lt;hr&gt;</pre></article>
+            <article><h3>12. &lt;strong&gt;</h3><p><b>Purpose:</b> Importance</p><p><b>When to use:</b> Bold</p><pre>&lt;strong&gt;</pre></article>
+            <article><h3>13. &lt;em&gt;</h3><p><b>Purpose:</b> Emphasis</p><p><b>When to use:</b> Italic</p><pre>&lt;em&gt;</pre></article>
+            <article><h3>14. &lt;ul&gt;</h3><p><b>Purpose:</b> List</p><p><b>When to use:</b> Bullets</p><pre>&lt;ul&gt;</pre></article>
+            <article><h3>15. &lt;ol&gt;</h3><p><b>Purpose:</b> List</p><p><b>When to use:</b> Numbers</p><pre>&lt;ol&gt;</pre></article>
+            <article><h3>16. &lt;li&gt;</h3><p><b>Purpose:</b> Item</p><p><b>When to use:</b> List item</p><pre>&lt;li&gt;</pre></article>
+            <article><h3>17. &lt;div&gt;</h3><p><b>Purpose:</b> Container</p><p><b>When to use:</b> Grouping</p><pre>&lt;div&gt;</pre></article>
+            <article><h3>18. &lt;span&gt;</h3><p><b>Purpose:</b> Inline</p><p><b>When to use:</b> Inline grouping</p><pre>&lt;span&gt;</pre></article>
+            <article><h3>19. &lt;header&gt;</h3><p><b>Purpose:</b> Header</p><p><b>When to use:</b> Top</p><pre>&lt;header&gt;</pre></article>
+            <article><h3>20. &lt;footer&gt;</h3><p><b>Purpose:</b> Footer</p><p><b>When to use:</b> Bottom</p><pre>&lt;footer&gt;</pre></article>
+        </section>
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <hr><center>
+        <p>&copy; 2026 HTML Fundamentals Reference Website</p>
+        <p>Design by Thishara Dilmini</p>
+        </center>
+    </footer>
     
 </body>
 </html>
